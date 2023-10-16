@@ -1,0 +1,9 @@
+{
+  "extends": [
+    "@meu-kit/eslint-config/browser/react",
+    "plugin:storybook/recommended"
+  ],
+  "rules": {
+    "@typescript-eslint/no-explicit-any": "off"
+  }
+}

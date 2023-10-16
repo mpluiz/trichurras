@@ -1,0 +1,16 @@
+{
+  "extends": "@meu-kit/ts-config/vite-react.json",
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["src/*"],
+      "@tests/*": ["tests/*"]
+    },
+    "types": ["vitest/globals"]
+  },
+  "include": [
+    "src",
+    "vite.config.ts",
+    "tests"
+  ]
+}
