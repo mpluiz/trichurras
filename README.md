@@ -1,4 +1,5 @@
 [![Tests](https://github.com/mpluiz/trichurras/actions/workflows/ci.yml/badge.svg)](https://github.com/mpluiz/trichurras/actions/workflows/ci.yml)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/3e2bfd65-95b7-4f34-8ce7-d1b65ddb27bd/deploy-status)](https://app.netlify.com/sites/trichurras/deploys)
 
 ![logo](./docs/app.png 'LOGO')
 
