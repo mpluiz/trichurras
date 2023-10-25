@@ -1,0 +1,35 @@
+version: '3'
+services:
+  build:
+    container_name: build
+    image: node:18
+    working_dir: /build
+    volumes:
+      - .:/build
+      - app-static:/build/dist
+      - storybook-static:/build/storybook-static
+    command: sh -c "npm i && npm run build && npx storybook build"
+
+  app:
+    image: nginx:latest
+    container_name: app
+    ports:
+      - "8080:80"
+    volumes:
+      - app-static:/usr/share/nginx/html
+    depends_on:
+      - build
+
+  storybook:
+    image: nginx:latest
+    container_name: storybook
+    ports:
+      - "6060:80"
+    volumes:
+      - storybook-static:/usr/share/nginx/html
+    depends_on:
+      - build
+
+volumes:
+  app-static:
+  storybook-static:
