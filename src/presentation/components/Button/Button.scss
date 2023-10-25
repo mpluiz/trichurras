@@ -1,0 +1,43 @@
+.button {
+  $root: &;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--spacing-xs);
+  padding: var(--spacing-sm);
+  border-radius: var(--border-width-2x);
+  border: var(--border-width-2x) solid transparent;
+  transition: border-color 0.2s ease 0s;
+  cursor: pointer;
+
+  &:not(:disabled) {
+    &:focus, &:focus-within, &:hover {
+      border-color: var(--color-purple);
+    }
+  }
+
+  &:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+  }
+
+  &--full-width {
+    width: 100%;
+  }
+
+  &--size-md {
+    height: var(--spacing-xl);
+  }
+
+  &--size-lg {
+    height: var(--spacing-xxl);
+  }
+
+  &--primary {
+    background: var(--color-black-200);
+  }
+
+  &--secondary {
+    background: var(--color-black-400);
+  }
+}
