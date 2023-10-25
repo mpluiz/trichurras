@@ -1,0 +1,17 @@
+.participant-list-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  div {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-md);
+  }
+
+  button {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+}
