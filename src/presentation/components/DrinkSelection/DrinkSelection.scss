@@ -1,0 +1,20 @@
+.drink-selection {
+  display: flex;
+  gap: var(--spacing-lg);
+
+  div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--color-white);
+    width: var(--spacing-xxl);
+    height: var(--spacing-xxl);
+    border-radius: var(--border-width-2x);
+
+    cursor: pointer;
+  }
+
+  [data-active="true"] {
+    border: var(--border-width-2x) solid var(--color-black-200);
+  }
+}
