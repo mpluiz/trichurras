@@ -1,0 +1,14 @@
+.participant-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+  background: var(--color-white);
+  padding: var(--spacing-lg);
+  box-shadow: var(--box-shadow-primary);
+
+  &__items {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-sm);
+  }
+}
