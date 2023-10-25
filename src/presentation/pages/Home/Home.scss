@@ -1,0 +1,12 @@
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  gap: var(--spacing-lg);
+}
+
+.footer {
+  position: fixed;
+  bottom: var(--spacing-lg);
+}
