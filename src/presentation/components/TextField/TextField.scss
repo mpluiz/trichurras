@@ -1,0 +1,32 @@
+.text-field {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: var(--spacing-xs);
+
+  &__input {
+    box-sizing: border-box;
+    appearance: none;
+    outline: 0;
+    width: 100%;
+    height: var(--spacing-xxl);
+    padding: 0 var(--spacing-md);
+    background: var(--color-white);
+    border: none;
+    border-radius: var(--border-width-2x);
+
+    font-family: var(--font-family);
+    font-size: var(--font-size-sm);
+    font-style: var(--font-style-italic);
+    font-weight: var(--font-weigth-regular);
+    color: var(--color-black);
+
+    &::placeholder {
+      font-family: var(--font-family);
+      font-size: var(--font-size-sm);
+      font-style: var(--font-style-italic);
+      font-weight: var(--font-weigth-regular);
+      color: var(--color-black);
+    }
+  }
+}
