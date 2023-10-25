@@ -1,0 +1,54 @@
+:root {
+    --font-family: 'Raleway', sans-serif;
+    --font-style-italic: italic;
+    --font-weigth-regular: 400;
+    --font-weigth-medium: 500;
+    --font-weigth-semi-bold: 600;
+    --font-weigth-bold: 700;
+    --font-weigth-extra-bold: 800;
+
+    --font-size-xs: 12px;
+    --font-size-sm: 16px;
+    --font-size-md: 22px;
+    --font-size-lg: 28px;
+    --font-size-xl: 32px;
+
+    --line-height-sm: 1.5;
+    --line-height-md: 1.6;
+    --line-height-lg: 1.8;
+
+    --spacing-xxs: 4px;
+    --spacing-xs: 8px;
+    --spacing-sm: 12px;
+    --spacing-md: 16px;
+    --spacing-lg: 24px;
+    --spacing-xl: 32px;
+    --spacing-xxl: 48px;
+    --spacing-xxxl: 64px;
+
+    --icon-size-sm: 16px;
+    --icon-size-md: 24px;
+    --icon-size-lg: 32px;
+
+    --border-width: 1px;
+    --border-width-2x: 2px;
+    --border-radius-xs: 4px;
+    --border-radius-sm: 6px;
+    --border-radius-md: 8px;
+    --border-radius-lg: 12px;
+    --border-radius-xl: 16px;
+
+    --box-shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.1);
+    --box-shadow-md: 0 4px 8px rgba(0, 0, 0, 0.2);
+    --box-shadow-lg: 0 8px 16px rgba(0, 0, 0, 0.3);
+    --box-shadow-primary: 0 0 16px 0 rgba(0, 0, 0, 0.06);
+
+    --color-black: rgb(0, 0, 0);
+    --color-black-200: rgba(0, 0, 0, 0.8);
+    --color-black-400: rgba(0, 0, 0, 0.4);
+
+    --color-white: rgb(255, 255, 255);
+    --color-white-100: rgba(250, 250, 250, 1);
+
+    --color-yellow: rgba(255, 216, 54, 1);
+}

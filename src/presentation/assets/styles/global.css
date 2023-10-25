@@ -1,0 +1,5 @@
+body {
+    background-color: var(--color-yellow);
+    background-image: url("@/presentation/assets/static/background.svg");
+    background-size: 33vh;
+}
