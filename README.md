@@ -5,8 +5,8 @@
 
 # TRICHURRAS
 
-- [app](https://trichurras.mpluiz.com.br)
-- [storybook](https://storybook.trichurras.mpluiz.com.br)
+- [app](https://trichurras.marcosluiz.dev)
+- [storybook](https://storybook.trichurras.marcosluiz.dev)
 
 ## Roadmap
 - E2E Test with Cypress
